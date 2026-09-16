@@ -306,47 +306,20 @@ with st.sidebar:
 # HERO SECTION
 # =========================================================
 
-st.markdown(
-    """
-    <div class="hero">
+st.title("🤖 AI Job Application Agent")
 
-        <div class="hero-badge">
-            🤖 AI-Powered Career Assistant
-        </div>
+st.subheader("AI-Powered Career Assistant")
 
-        <h1>
-            AI Job Application Agent
-        </h1>
-
-        <p>
-            Analyze your CV against job descriptions, discover
-            skill gaps, understand your suitability, and generate
-            tailored application materials in seconds.
-        </p>
-
-    </div>
-    """,
-    unsafe_allow_html=True,
+st.write(
+    "Analyze your CV against job descriptions, discover "
+    "skill gaps, understand your suitability, and generate "
+    "tailored application materials in seconds."
 )
 
 
 # =========================================================
 # INPUT SECTION
 # =========================================================
-
-st.markdown(
-    """
-    <div class="section-header">
-        <h2>📋 Start Your Application Analysis</h2>
-        <p>
-            Provide your CV and the job description to see how
-            well you match the opportunity.
-        </p>
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
-
 
 input_col1, input_col2 = st.columns([1, 1])
 
